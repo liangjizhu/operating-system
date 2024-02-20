@@ -1,6 +1,4 @@
-if (x > y){
-    //     return x;
+for (int i = 0; i <= 10; i++){
+    //     printf("%d\n", i);
     // }
-    // else{
-    //     return y;
-    // }
+    // return 0;
