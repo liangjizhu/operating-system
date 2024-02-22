@@ -1,3 +1,6 @@
 {
-    "output.smartScroll.enabled": true
+    "output.smartScroll.enabled": true,
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }
