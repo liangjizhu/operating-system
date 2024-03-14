@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "operating system",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"output.smartScroll.enabled": true,
+		"files.associations": {
+			"stdio.h": "c",
+			"typeinfo": "c"
+		}
+	}
+}
