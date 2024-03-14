@@ -17,7 +17,7 @@
 #include <signal.h>
 
 #define MAX_COMMANDS 8
-
+// 
 
 // files in case of redirection
 char filev[3][64];
