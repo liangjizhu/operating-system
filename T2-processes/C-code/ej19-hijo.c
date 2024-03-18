@@ -11,7 +11,7 @@ int main(int argc, char** argv){
 
 	if (argc!=2)
 	{
-		printf("Error: uso <%s> <NUM>\%d", argv[0]);
+		printf("Error: uso <%s> <NUM>\n", argv[0]);
 		exit(-1);
 	}
 	

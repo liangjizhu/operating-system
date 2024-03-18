@@ -11,4 +11,6 @@ int main (){
   printf ("Uno\n");
   fork ();
   printf ("Dos pid=%d\n",getpid());
+  fork ();
+  printf ("Tres pid=%d\n",getpid());
 }

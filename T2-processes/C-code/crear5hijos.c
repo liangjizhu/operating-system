@@ -16,6 +16,6 @@ int main (){
     else; 
 	  // El padre no tiene nada mas que hacer
   }
-  /* El padre finaliza sin esperar a los hijos que se quedan sin padre (zombies)
+  /* El padre finaliza sin esperar a los hijos que se quedan sin padre (zombies)*/
 }
 
