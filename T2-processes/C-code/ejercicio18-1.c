@@ -10,7 +10,7 @@ int main(){
 	pidHijo=fork();
 	switch (pidHijo){
 		case -1: printf ("Error fork()\n");
-			 break;
+			break;
 		case 0:  /* proceso hijo */
 		 	printf("Proceso hijo - pid=%d\n", getpid());
 			execlp("/usr/bin/pstree", "pstree", NULL);			

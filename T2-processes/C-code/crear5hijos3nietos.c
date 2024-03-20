@@ -1,5 +1,5 @@
 // Este programa crea 5 hijos y 3 nietos
-// José Manuel Pérez Lobato
+// Josï¿½ Manuel Pï¿½rez Lobato
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -12,8 +12,7 @@ int main (){
        for (j=1; j<=3; j++){
          pid=fork ();  //Creo los nietos 
          if (pid==0){
-           printf (" Nieto %d ( pid=%d) del hijo %d (pid=%d)\n",
-			   j,getpid(),i,getppid());
+           printf (" Nieto %d ( pid=%d) del hijo %d (pid=%d)\n", j,getpid(),i,getppid());
 	   exit (0);  //fin de los nietos
          }
        }
@@ -21,7 +20,7 @@ int main (){
          wait (NULL);
        exit (0); //return(0);  //fin de los hijos
     } // fin del if del hijo
-  } //fin for de creación de 5 hijos  
+  } //fin for de creaciï¿½n de 5 hijos  
   for (i=1; i<=5; i++)  //El padre espera el fin de sus hijos
      wait (NULL);
 }
