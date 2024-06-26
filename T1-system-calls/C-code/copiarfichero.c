@@ -40,17 +40,17 @@ int main (int argc, char ** argv) {
    res=copyfile(argv[1], argv[2]);
 
    switch(res){
-       case(-1):
-	printf("source file cannot be open\n");
-        break;
-       case(-2):
-	printf("destination file cannot be created\n");
-        break;
-       case(-3):
-	printf("destination file cannot be writen\n");
-        break;
-       default:
-	printf("file %s copied to file %s\n", argv[1], argv[2]);
+    	case(-1):
+			printf("source file cannot be open\n");
+        	break;
+    	case(-2):
+			printf("destination file cannot be created\n");
+        	break;
+        case(-3):
+			printf("destination file cannot be writen\n");
+        	break;
+        default:
+			printf("file %s copied to file %s\n", argv[1], argv[2]);
     }
 
 }
